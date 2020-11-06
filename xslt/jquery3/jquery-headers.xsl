@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template name="jquery-headers">
+    <xsl:template name="jquery3">
         <xsl:choose>
             <xsl:when test="/root/@debug='1'">
                 <script src="/jquery3/jquery.js"/>
