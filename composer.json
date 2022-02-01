@@ -1,11 +1,11 @@
 {
-    "name": "difra/jquery3",
-    "description": "jQuery bindings for Difra framework",
+    "name": "difra/binding-jquery3",
+    "description": "jQuery bindings for Difra",
     "type": "library",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Eduard Kutuev",
+            "name": "Ed Kutuev",
             "email": "ed@napych.com"
         }
     ],
@@ -13,13 +13,13 @@
         "components/jquery": "3.*"
     },
     "dist": {
-        "url": "https://github.com/difra-org/jquery3/archive/1.0.0.zip",
+        "url": "https://github.com/difra-org/jquery3/archive/8.0.0.zip",
         "type": "zip"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:difra-org/jquery3.git"
+            "url": "git@github.com:difra-org/binding-jquery3.git"
         }
     ],
     "autoload": {
