@@ -13,7 +13,7 @@
         "components/jquery": "3.*"
     },
     "dist": {
-        "url": "https://github.com/difra-org/jquery3/archive/8.0.0.zip",
+        "url": "https://github.com/difra-org/jquery3/archive/refs/tags/8.0.0.zip",
         "type": "zip"
     },
     "repositories": [
