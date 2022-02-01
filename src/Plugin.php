@@ -1,10 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Difra\Jquery3;
 
 use Difra\Debugger;
 use Difra\Envi\Action;
 use Difra\Events\Event;
+use Difra\Events\System;
 
 /**
  * Class Plugin
@@ -15,9 +18,9 @@ class Plugin extends \Difra\Plugin
     /**
      * @inheritdoc
      */
-    protected function init()
+    protected function init(): void
     {
-        \Difra\Events\System::getInstance(Event::EVENT_RENDER_INIT)->registerHandler([static::class, 'addHTML']);
+        System::getInstance(Event::EVENT_RENDER_INIT)->registerHandler([static::class, 'addHTML']);
     }
 
     public static function addHTML(Event $event)
